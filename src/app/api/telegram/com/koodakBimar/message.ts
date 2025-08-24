@@ -1,7 +1,7 @@
 import { nothingJozve, ostad, subject } from "../../libs/DefaultMessage";
 import { list } from "../../libs/list";
 import { userStack } from "../../libs/stack";
-import { bot } from "../../route";
+import bot from "../../libs/telegram";
 import { EndReplyMarkup } from "../TotalReplyMarkup";
 import { KhajeFiles, PariabFiles } from "./files";
 import { KoodakBimarReplyMarkup } from "./ReplyMarkup";

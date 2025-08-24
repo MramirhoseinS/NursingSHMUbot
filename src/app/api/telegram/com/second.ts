@@ -1,6 +1,6 @@
 import { dars } from "../libs/DefaultMessage";
 import { userStack } from "../libs/stack";
-import { bot } from "../route";
+import bot from "../libs/telegram";
 import { Term5ReplyMarkup } from "./TotalReplyMarkup";
 
 export const Second = async (chatId: any) => {

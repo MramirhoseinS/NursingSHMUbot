@@ -1,7 +1,7 @@
-import { dars, nothingFile, nothingJozve, ostad, subject } from "../../libs/DefaultMessage";
+import { nothingFile, nothingJozve, ostad, subject } from "../../libs/DefaultMessage";
 import { list } from "../../libs/list";
 import { userStack } from "../../libs/stack";
-import { bot } from "../../route";
+import bot from "../../libs/telegram";
 import { EndReplyMarkup } from "../TotalReplyMarkup";
 import {
   AmeriJozves,

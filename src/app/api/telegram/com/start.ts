@@ -1,6 +1,6 @@
 import { userIdList, userNameList } from "../libs/info";
 import { userStack } from "../libs/stack";
-import { bot } from "../route";
+import bot from "../libs/telegram";
 import { Term5ReplyMarkup } from "./TotalReplyMarkup";
 
 export const Start = async (chatId: any, userName: any) => {

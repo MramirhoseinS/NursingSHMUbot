@@ -1,5 +1,5 @@
 import { userIdList } from "../libs/info";
-import { bot } from "../route";
+import bot from "../libs/telegram";
 
 export let adminStack = false;
 

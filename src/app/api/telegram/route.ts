@@ -1,5 +1,4 @@
 import { NextRequest } from "next/server";
-import TelegramBot from "node-telegram-bot-api";
 import { list } from "./libs/list";
 import { usage, userStack } from "./libs/stack";
 import { CheckSalamnd3 } from "./com/salmand3/check";
@@ -8,9 +7,8 @@ import { Bazgasht } from "./com/bazgasht/Bazgasht";
 import { CheckKoodakBimar } from "./com/koodakBimar/check";
 import { AdminSendMassage, adminStack } from "./admin/sendMassage";
 import { userIdList, userNameList } from "./libs/info";
+import bot from "./libs/telegram";
 
-const token = process.env.BOT_TOKEN!;
-export const bot = new TelegramBot(token, { webHook: true });
 
 export async function POST(request: NextRequest) {
   try {
