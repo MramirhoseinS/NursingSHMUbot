@@ -14,7 +14,7 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     if (!body || !body.message || !body.message.text) {
-      return new Response("Invalid request", { status: 400 });
+      return new Response("Invalid request", { status: 200 });
     }
     const chatId = body.message.chat.id;
     const text = body.message.text;
