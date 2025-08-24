@@ -10,7 +10,7 @@ import { AdminSendMassage, adminStack } from "./admin/sendMassage";
 import { userIdList, userNameList } from "./libs/info";
 
 const token = process.env.BOT_TOKEN!;
-export const bot = new TelegramBot(token);
+export const bot = new TelegramBot(token, { webHook: true });
 
 export async function POST(request: NextRequest) {
   try {
