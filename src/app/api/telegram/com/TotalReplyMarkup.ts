@@ -16,5 +16,4 @@ export const JustFileReplyMarkup = {
 export const Term5ReplyMarkup = {
   keyboard: [[{ text: "بزرگسالان و سالمندان ۳" }, { text: "کودک بیمار" }]],
   resize_keyboard: true,
-  inline_keyboard: [[{ text: "Website", url: "https://google.com" }]],
 };
