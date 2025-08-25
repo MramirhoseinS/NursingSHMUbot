@@ -26,7 +26,7 @@ export const Start = async (chatId: any, userName: any) => {
     {
       disable_web_page_preview: true,
       reply_markup: {
-        inline_keyboard: [[{ text: "Website", web_app: {url: "https://t.me/NursingShmu_bot/web"} }]],
+        inline_keyboard: [[{ text: "Website", web_app: {url: "https://soal-khatibi-bot.vercel.app/"} }]],
       },
     }
   );
