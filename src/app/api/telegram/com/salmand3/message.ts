@@ -45,7 +45,7 @@ export const MessageSalmand3 = async (chatId: any) => {
     });
   } else if (curr === list.salmandan3.osKhatibi.jozve) {
     for (const jozve of KhatibiJozves) {
-      await bot.sendDocument(chatId, jozve.path);
+      await bot.sendDocument(chatId, jozve.path, { caption: jozve.caption });
     }
     userStack[chatId].pop();
   } else if (curr === list.salmandan3.osKhatibi.file) {
