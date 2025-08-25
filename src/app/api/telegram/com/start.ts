@@ -20,10 +20,7 @@ export const Start = async (chatId: any, userName: any) => {
 برای دسترسی به این سایت از دکمه شیشه ای پایین استفاده کن و یا روی دکمه Open که پایین صفحه هست بزن`,
     {
       disable_web_page_preview: true,
-      reply_markup: {
-        ...Term5ReplyMarkup,
-        inline_keyboard: [[{ text: "Website", url: "https://t.me/NursingShmu_bot/web" }]],
-      },
+      reply_markup: Term5ReplyMarkup,
     }
   );
 };
