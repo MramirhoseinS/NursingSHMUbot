@@ -11,14 +11,14 @@ export const Start = async (chatId: any, userName: any) => {
     userNameList.push(`@${userName}`);
   }
 
-  await bot.sendMessage(
-    chatId,
-    `خوش اومدی⛄️
-از منویی که برات باز میشه درسی که میخوای رو انتخاب کن`,
-    {
-      reply_markup: Term5ReplyMarkup,
-    }
-  );
+//   await bot.sendMessage(
+//     chatId,
+//     `خوش اومدی⛄️
+// از منویی که برات باز میشه درسی که میخوای رو انتخاب کن`,
+//     {
+//       reply_markup: Term5ReplyMarkup,
+//     }
+//   );
   await bot.sendMessage(
     chatId,
     `یه سایتی طراحی کردم که سوالایی که برای استاد خطیبی هست به صورت رندم برات میاد تا بتونی راحت تر جواب رو حفظ کنی
