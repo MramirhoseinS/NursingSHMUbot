@@ -8,6 +8,10 @@ export const EbrahimiJozves = [
 export const KhatibiJozves = [
   {
     path: "BQACAgQAAx0Cbu8Z0gACA1hoqrKSZuI-WkNz3Aiesv30rdYbRQACTxYAAiXOSFOsjhzSGaRn7DYE",
+    caption: "از صفحه ۱ تا ۴۹ + ۸۳ تا ۱۰۱ مطالعه بشه",
+  },
+  {
+    path: "BQACAgQAAx0Cbu8Z0gACA71oq_Znw-9mjmje73F-CSCdbI4sdwACoB4AApw9MVKDBe_tcZ199jYE",
     caption: "",
   },
 ];
