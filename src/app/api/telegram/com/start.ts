@@ -28,9 +28,9 @@ export const Start = async (chatId: any, userName: any) => {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: "", callback_data: "" },
+            { text: "\u200B", callback_data: "empty" },
             { text: "Website", web_app: { url: "https://soal-khatibi-bot.vercel.app/" } },
-            { text: "", callback_data: "" },
+            { text: "\u200B", callback_data: "empty" },
           ],
         ],
       },
