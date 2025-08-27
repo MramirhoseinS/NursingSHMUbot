@@ -10,7 +10,11 @@ export const AdminSendMassage = async (text: any) => {
   } else {
     adminStack = false;
     for (const user of userIdList) {
-      await bot.sendMessage(user, text);
+      try {
+        await bot.sendMessage(user, text);
+      } catch (error) {
+        continue;
+      }
     }
     await bot.sendMessage(245633649, "پیام شما به همه کاربران ارسال شد");
   }
