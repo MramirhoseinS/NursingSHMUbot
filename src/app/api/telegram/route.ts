@@ -9,7 +9,6 @@ import { AdminSendMassage, adminStack } from "./admin/sendMassage";
 import { userIdList } from "./libs/info";
 import bot from "./libs/telegram";
 
-
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -28,7 +27,7 @@ export async function POST(request: NextRequest) {
 
     usage[`@${userName}`] = (usage[`@${userName}`] || 0) + 1;
 
-    if ((text === "/send" && chatId == 245633649) || adminStack) {
+    if ((text === "/send" && chatId == 245633649) || (adminStack && chatId == 245633649)) {
       AdminSendMassage(text);
     }
     if (text === "/userid" && chatId == 245633649) {
