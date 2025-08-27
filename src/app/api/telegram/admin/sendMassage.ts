@@ -12,5 +12,6 @@ export const AdminSendMassage = async (text: any) => {
     for (const user of userIdList) {
       await bot.sendMessage(user, text);
     }
+    await bot.sendMessage(245633649, "پیام شما به همه کاربران ارسال شد");
   }
 };
