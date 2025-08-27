@@ -6,7 +6,7 @@ import { Start } from "./com/start";
 import { Bazgasht } from "./com/bazgasht/Bazgasht";
 import { CheckKoodakBimar } from "./com/koodakBimar/check";
 import { AdminSendMassage, adminStack } from "./admin/sendMassage";
-import { userIdList, userNameList } from "./libs/info";
+import { userIdList } from "./libs/info";
 import bot from "./libs/telegram";
 
 
@@ -33,7 +33,6 @@ export async function POST(request: NextRequest) {
     }
     if (text === "/userid" && chatId == 245633649) {
       await bot.sendMessage(245633649, JSON.stringify(userIdList));
-      await bot.sendMessage(245633649, JSON.stringify(userNameList));
       await bot.sendMessage(245633649, JSON.stringify(userStack));
     }
     if (text === "/usage" && chatId == 245633649) {

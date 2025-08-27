@@ -1,3 +1,31 @@
 export let userStack: Record<number, any[]> = {};
 
-export const usage: Record<string, number> = {};
+export const usage: Record<string, number> = {
+  "@MrAmirhoseinS": 32,
+  "@Iiopllko": 16,
+  "@undefined": 1,
+  "@mhdi_1670": 4,
+  "@nlikeniluph": 13,
+  "@farzaneh020": 17,
+  "@Alireza24283": 36,
+  "@soheilshariati82": 11,
+  "@mmd8301": 31,
+  "@Ocean005": 7,
+  "@Pouya0982": 1,
+  "@nR_bEh": 6,
+  "@ftma3d": 6,
+  "@melikanadali2004": 1,
+  "@Hbb_mahsa": 1,
+  "@hablolove": 10,
+  "@miladpa2": 28,
+  "@MissMehrparvar0831": 1,
+  "@Erfan_rmzn": 17,
+  "@neginehpo": 1,
+  "@Mhdb911": 12,
+  "@mobina_vakili": 2,
+  "@mehdi_oglo": 11,
+  "@Raziyehalipor": 2,
+  "@m_mhd_8": 10,
+  "@rosstaami": 37,
+  "@Zhr_Thnin01": 1,
+};

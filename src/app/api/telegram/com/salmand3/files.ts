@@ -22,6 +22,10 @@ export const AmeriJozves = [
     caption: `جزوه دست نویس ترم پیش
 سه جلسه اول حذف و از جلسه چهارم مطالعه شود`,
   },
+  {
+    path: "BQACAgQAAx0Cbu8Z0gACA8Bort3wp0NUMIgfQPvvdTQ-XBSegQACMhsAAoG8eVGVtWSo7aiwFDYE",
+    caption: `جزوه خانم طحانیان`,
+  },
 ];
 
 export const NadaliFiles = [
@@ -54,7 +58,11 @@ export const AshrafiJozves = [
   {
     path: "BQACAgQAAx0Cbu8Z0gACA21oqrmWLEJjxjFGGMRnqEp35IPuWQACzRsAAn1u2FNohLby9AlQjjYE",
     caption: `جزوه دست نویس ترم پیش
-مطالب این جزوه کمی متفاوت با مطالبی هست که در کلاس تدریس شده`,
+ مطالب این جزوه کمی متفاوت با مطالبی هست که در کلاس تدریس شده و بخش گوش رو نداره`,
+  },
+  {
+    path: "BQACAgQAAx0Cbu8Z0gACA79ort28SvpxciBUHS8nK-w9-N22JgACMRsAAoG8eVFDLU1r7Gg-IjYE",
+    caption: `جزوه خانم ملک`,
   },
 ];
 

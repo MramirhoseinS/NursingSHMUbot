@@ -1,4 +1,4 @@
-import { userIdList, userNameList } from "../libs/info";
+import { userIdList } from "../libs/info";
 import { userStack } from "../libs/stack";
 import bot from "../libs/telegram";
 import { Term5ReplyMarkup } from "./TotalReplyMarkup";
@@ -8,7 +8,6 @@ export const Start = async (chatId: any, userName: any) => {
   const existUser = userIdList.find((id) => id === chatId);
   if (!existUser) {
     userIdList.push(chatId);
-    userNameList.push(`@${userName}`);
   }
 
   await bot.sendMessage(
