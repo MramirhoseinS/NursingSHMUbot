@@ -28,7 +28,7 @@ export const Start = async (chatId: any, userName: any) => {
         inline_keyboard: [
           [
             { text: "\u200B", callback_data: "empty" },
-            { text: "Website", web_app: { url: "https://soal-khatibi-bot.vercel.app/" } },
+            { text: "Website", web_app: { url: "https://soal-khatibi-inbot.vercel.app/" } },
             { text: "\u200B", callback_data: "empty" },
           ],
         ],
