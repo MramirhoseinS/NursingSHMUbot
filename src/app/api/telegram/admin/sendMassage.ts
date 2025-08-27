@@ -8,9 +8,9 @@ export const AdminSendMassage = async (text: any) => {
     adminStack = true;
     await bot.sendMessage(245633649, "پیامتو بفرس");
   } else {
+    adminStack = false;
     for (const user of userIdList) {
       await bot.sendMessage(user, text);
     }
-    adminStack = false;
   }
 };
