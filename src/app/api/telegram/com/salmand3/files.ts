@@ -62,7 +62,7 @@ export const AshrafiJozves = [
   },
   {
     path: "BQACAgQAAx0Cbu8Z0gACA79ort28SvpxciBUHS8nK-w9-N22JgACMRsAAoG8eVFDLU1r7Gg-IjYE",
-    caption: `جزوه خانم ملک`,
+    caption: `جزوه خانم وکیلی و خانم ملک`,
   },
 ];
 
